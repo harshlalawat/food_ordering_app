@@ -1,0 +1,23 @@
+.shimmer_card_container{
+    padding: 10px 5px;
+    margin: 10px 20px;
+    border: none;
+    width: 200px;
+    height: 326.175px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.shimmer_card_image{
+    width: 200px;
+    height: 150px;
+    background-color: #f6f6f6;
+    border-radius: 5px;
+}
+
+.shimmer_content{
+    background-color: #f6f6f6;
+    width: 100px;
+    height: 1rem;
+    margin: 20px;
+}

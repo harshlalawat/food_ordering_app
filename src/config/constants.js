@@ -1,0 +1,222 @@
+export const cardProducts = [
+    {
+        productId: "101",
+        name: "Margherita Pizza",
+        description: "Classic cheese and tomato pizza with a crispy crust.",
+        price: 299,
+        imageUrl: "https://example.com/images/margherita-pizza.jpg",
+        isVeg: true,
+        rating: 4.2,
+        reviews: 150,
+        restaurantName: "Pizza Palace"
+    },
+    {
+        productId: "102",
+        name: "Chicken Biryani",
+        description: "Aromatic basmati rice cooked with tender chicken and spices.",
+        price: 349,
+        imageUrl: "https://example.com/images/chicken-biryani.jpg",
+        isVeg: false,
+        rating: 4.5,
+        reviews: 200,
+        restaurantName: "Biryani House"
+    },
+    {
+        productId: "103",
+        name: "Paneer Butter Masala",
+        description: "Cottage cheese cooked in a rich and creamy tomato gravy.",
+        price: 249,
+        imageUrl: "https://example.com/images/paneer-butter-masala.jpg",
+        isVeg: true,
+        rating: 4.6,
+        reviews: 180,
+        restaurantName: "Indian Delight"
+    },
+    {
+        productId: "104",
+        name: "Veggie Burger",
+        description: "A hearty burger with a grilled vegetable patty and fresh toppings.",
+        price: 199,
+        imageUrl: "https://example.com/images/veggie-burger.jpg",
+        isVeg: true,
+        rating: 4.1,
+        reviews: 90,
+        restaurantName: "Burger Corner"
+    },
+    {
+        productId: "105",
+        name: "Butter Chicken",
+        description: "Tender chicken pieces cooked in a creamy tomato-based sauce.",
+        price: 299,
+        imageUrl: "https://example.com/images/butter-chicken.jpg",
+        isVeg: false,
+        rating: 4.7,
+        reviews: 250,
+        restaurantName: "Spice Hub"
+    },
+    {
+        productId: "106",
+        name: "Chocolate Brownie",
+        description: "Rich and fudgy chocolate brownie topped with walnuts.",
+        price: 149,
+        imageUrl: "https://example.com/images/chocolate-brownie.jpg",
+        isVeg: true,
+        rating: 4.4,
+        reviews: 120,
+        restaurantName: "Sweet Treats"
+    },
+    {
+        productId: "107",
+        name: "Mutton Rogan Josh",
+        description: "Spicy and flavorful mutton curry cooked with traditional spices.",
+        price: 399,
+        imageUrl: "https://example.com/images/mutton-rogan-josh.jpg",
+        isVeg: false,
+        rating: 4.8,
+        reviews: 175,
+        restaurantName: "Kashmiri Kitchen"
+    },
+    {
+        productId: "108",
+        name: "Caesar Salad",
+        description: "Fresh lettuce, croutons, and parmesan tossed in Caesar dressing.",
+        price: 199,
+        imageUrl: "https://example.com/images/caesar-salad.jpg",
+        isVeg: true,
+        rating: 4.2,
+        reviews: 85,
+        restaurantName: "Salad Stop"
+    },
+    {
+        productId: "109",
+        name: "Grilled Chicken Sandwich",
+        description: "Grilled chicken breast with lettuce, tomato, and mayo on whole grain bread.",
+        price: 249,
+        imageUrl: "https://example.com/images/grilled-chicken-sandwich.jpg",
+        isVeg: false,
+        rating: 4.3,
+        reviews: 110,
+        restaurantName: "Sandwich Hub"
+    },
+    {
+        productId: "110",
+        name: "Pasta Alfredo",
+        description: "Creamy Alfredo sauce with fettuccine pasta and parmesan cheese.",
+        price: 279,
+        imageUrl: "https://example.com/images/pasta-alfredo.jpg",
+        isVeg: true,
+        rating: 4.5,
+        reviews: 140,
+        restaurantName: "Pasta Point"
+    },
+    {
+        productId: "111",
+        name: "Fish and Chips",
+        description: "Crispy fried fish served with golden fries and tartar sauce.",
+        price: 349,
+        imageUrl: "https://example.com/images/fish-and-chips.jpg",
+        isVeg: false,
+        rating: 4.6,
+        reviews: 90,
+        restaurantName: "Seafood Shack"
+    },
+    {
+        productId: "112",
+        name: "Tandoori Paneer",
+        description: "Paneer marinated in yogurt and spices, grilled to perfection.",
+        price: 299,
+        imageUrl: "https://example.com/images/tandoori-paneer.jpg",
+        isVeg: true,
+        rating: 4.7,
+        reviews: 160,
+        restaurantName: "Tandoor Express"
+    },
+    {
+        productId: "113",
+        name: "Beef Steak",
+        description: "Juicy beef steak cooked to your liking, served with mashed potatoes.",
+        price: 499,
+        imageUrl: "https://example.com/images/beef-steak.jpg",
+        isVeg: false,
+        rating: 4.8,
+        reviews: 130,
+        restaurantName: "Steak House"
+    },
+    {
+        productId: "114",
+        name: "Garlic Bread",
+        description: "Buttery garlic bread with a sprinkle of herbs.",
+        price: 99,
+        imageUrl: "https://example.com/images/garlic-bread.jpg",
+        isVeg: true,
+        rating: 4.3,
+        reviews: 105,
+        restaurantName: "Pizza Palace"
+    },
+    {
+        productId: "115",
+        name: "Vegetable Spring Rolls",
+        description: "Crispy spring rolls stuffed with fresh vegetables.",
+        price: 149,
+        imageUrl: "https://example.com/images/vegetable-spring-rolls.jpg",
+        isVeg: true,
+        rating: 4.2,
+        reviews: 95,
+        restaurantName: "Asian Delight"
+    },
+    {
+        productId: "116",
+        name: "Egg Fried Rice",
+        description: "Stir-fried rice with scrambled eggs and mixed vegetables.",
+        price: 199,
+        imageUrl: "https://example.com/images/egg-fried-rice.jpg",
+        isVeg: false,
+        rating: 4.4,
+        reviews: 115,
+        restaurantName: "Rice Bowl"
+    },
+    {
+        productId: "117",
+        name: "Vegetable Samosa",
+        description: "Crispy pastry filled with spiced potatoes and peas.",
+        price: 49,
+        imageUrl: "https://example.com/images/vegetable-samosa.jpg",
+        isVeg: true,
+        rating: 4.1,
+        reviews: 200,
+        restaurantName: "Snack Time"
+    },
+    {
+        productId: "118",
+        name: "Chicken Caesar Wrap",
+        description: "Grilled chicken, romaine lettuce, and Caesar dressing wrapped in a tortilla.",
+        price: 229,
+        imageUrl: "https://example.com/images/chicken-caesar-wrap.jpg",
+        isVeg: false,
+        rating: 4.3,
+        reviews: 100,
+        restaurantName: "Wrap It Up"
+    },
+    {
+        productId: "119",
+        name: "Mango Smoothie",
+        description: "Refreshing smoothie made with ripe mangoes and yogurt.",
+        price: 149,
+        imageUrl: "https://example.com/images/mango-smoothie.jpg",
+        isVeg: true,
+        rating: 4.5,
+        reviews: 80,
+        restaurantName: "Juice Junction"
+    },
+    {
+        productId: "120",
+        name: "Prawn Curry",
+        description: "Succulent prawns cooked in a spicy coconut curry.",
+        price: 399,
+        imageUrl: "https://example.com/images/prawn-curry.jpg",
+        isVeg: false,
+        rating: 4.7,
+        reviews: 110,
+        restaurantName: "Coastal Flavors"
+    }
+];

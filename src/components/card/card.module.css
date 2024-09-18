@@ -1,0 +1,19 @@
+.card_container{
+    padding: 10px 5px;
+    margin: 10px 20px;
+    border: none;
+    max-width: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.card_container:hover{
+    cursor: pointer;
+    scale: 105%;
+    box-shadow: 3px 3px 10px;
+}
+
+.card_image{
+    width: 200px;
+    border-radius: 5px;
+}

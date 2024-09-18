@@ -1,0 +1,22 @@
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #83ec79;
+}
+
+.logo{
+    height: 50px;
+    margin-left: 40px;
+}
+
+.header_list{
+    display: flex;
+    list-style: none;
+}
+
+.header_item{
+    font-size: 1.4rem;
+    margin-right: 40px;
+}
+
