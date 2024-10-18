@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { useState } from "react";
 import styles from './home.module.css';
-import {Header} from "../../components/header";
 import {Card} from "../../components/card";
 import { cardProducts } from "../../config";
 import CardContainer from "../../components/CardContainer/CardContainer";
@@ -36,7 +35,6 @@ const Home = ()=>{
         }, 1000);
     }, []);
     return(<>
-        <Header />
         <div className={styles.home_container}>
             <div className={styles.search_container}>
                 <input type="text" value={searchInput} onChange={(event) => {handleSearchRestro(event.target.value)}}/>
